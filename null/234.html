@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+	<meta http-equiv="Content-type" content="text/html" charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="login.css"/>
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=play">
+</head>
+<script>
+function login(){
+var user = document.getElementById('user').value;
+var pass = document.getElementById('pass').value;
+if (user== "raheem" && pass== "123456"){
+	alert("Welcome "+user+" Login Successfully done.");
+	window.location.href="13.html";
+}
+else{
+	alert("login failed, wrong username or password");
+}
+}
+
+</script>
+<body>
+<center><div class="signin">
+	<form>
+		<span> demo user: raheem and<br>password: 123456</span>
+		<h2 style="color: white">LOGIN</h2>
+		<input type="text" id="user" name="username" placeholder="username">
+		<input type="password" id="pass" name="pass" placeholder="password"><br><br>
+		<input type="button" onclick="login();" value="Login"><br><a href="13.html"></a>
+		<br>
+		<div id="container">
+			<a href="re.html" style="margin-right:0px: font-size:13px;font-family: Tohama,Geneva,Sans-serif;">Reset password</a><br>
+			<a href="for.html" style="margin-right:0px: font-size:13px;font-family: Tohama,Geneva,Sans-serif;">Forgot password</a><br>
+		</div><br>
+		Don't have account?
+		<a href="sgnup.html">&nbsp;Sign up</buttom>
+	</center>
+	</form>
+</div>
+</body>
+</html>

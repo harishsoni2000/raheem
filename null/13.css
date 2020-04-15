@@ -1,0 +1,62 @@
+body
+{
+	background:url(guy.jpg);
+	background-size: cover;
+}
+.contact-form
+{
+	background:rgba(44,62,80,0.7);
+    padding: 40px;
+    width: 550px;
+    margin: auto;
+    margin-top: 80px;
+    height: 750px;
+    margin-left: 180px;
+    margin: 0 auto;
+    margin-top: 90px;
+
+}
+input[type=text],select
+{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	display: inline-block;
+	box-sizing: border-box;
+}
+input[type=DOB],select
+{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	display: inline-block;
+	box-sizing: border-box;
+}
+input[type=file],select
+{
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 1px solid #ccc;
+	display: inline-block;
+	box-sizing: border-box;
+}
+input[type=button]
+{
+	border: none;
+	width: 190px;
+	background:white;
+	color:black;
+	font-size:16px;
+	line-height:25px;
+	padding: 10px 0;
+	border-radius: 25px;
+	cursor: pointer;
+}
+input[type=button]:hover
+{
+	color: #000;
+	background-color:white;
+}
